@@ -1,2 +1,1 @@
-# css-design-magazine
-Created with CodeSandbox
+<a href="https://www.freepik.com/free-photos-vectors/brochure">Brochure vector created by freepik - www.freepik.com</a>
