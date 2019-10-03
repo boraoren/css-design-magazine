@@ -1,12 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Dr+Sugiyama&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap&subset=latin-ext");
+
 .App {
-  font-family: sans-serif;
   height: 100%;
+  font-family: "Zilla Slab", serif;
 }
 
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr 7fr 3fr;
-  grid-template-rows: 45px 191px 45px 96px 100px 1fr;
+  grid-template-rows: 45px 200px 20px 180px 80px 1fr;
   justify-items: center;
 }
 
@@ -21,8 +24,24 @@
 ._2 {
   grid-column: 3/4;
   grid-row: 2/3;
-  align-self: center;
-  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+._2_1 {
+  font-size: 35px;
+  color: #2b2b2b;
+  padding-top: 60px;
+  padding-right: 35px;
+  position: absolute;
+}
+
+._2_2 {
+  font-family: "Dr Sugiyama";
+  font-size: 130px;
+  color: #2b2b2b;
 }
 
 ._3 {
@@ -41,6 +60,7 @@
 
 ._3_2 {
   color: #a7a7a7;
+  font-size: 18px;
 }
 
 ._4 {

@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import yourMagazine from "./yourMagazine.png";
 
 import "./styles.css";
 
@@ -10,8 +9,8 @@ function App() {
       <div className="container">
         <div className="_1" />
         <div className="_2">
-          <h1>Design</h1>
-          <h2>Magazine</h2>
+          <div className="_2_1">DESIGN</div>
+          <div className="_2_2">Magazine</div>
         </div>
         <div className="_3">
           <div className="_3_1">
@@ -21,7 +20,11 @@ function App() {
             Effect if in up no depend seemed. Ecstatic elegance
           </h2>
         </div>
-        <img src={yourMagazine} alt="your magazine" className="_4" />
+        <img
+          src="https://github.com/boraoren/css-design-magazine/blob/master/src/yourMagazine.png?raw=true"
+          alt="your magazine"
+          className="_4"
+        />
       </div>
     </div>
   );
