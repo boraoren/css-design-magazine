@@ -9,7 +9,7 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr 7fr 3fr;
-  grid-template-rows: 45px 200px 20px 180px 80px 1fr;
+  grid-template-rows: 10px 190px 50px 135px 100px;
   justify-items: center;
 }
 
@@ -18,7 +18,7 @@
   background-color: #ebebeb;
   width: 100%;
   grid-column: 3/4;
-  grid-row: 2/7;
+  grid-row: 1/7;
 }
 
 ._2 {
