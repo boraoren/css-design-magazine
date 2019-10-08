@@ -6,11 +6,13 @@ const Slogan = () => {
     color: #ebebeb;
     background-color: #2b2b2b;
     font-size: 32px;
+    text-align: center;
   `;
 
   const SubText = styled.div`
     color: #a7a7a7;
     font-size: 18px;
+    text-align: center;
   `;
 
   return (
