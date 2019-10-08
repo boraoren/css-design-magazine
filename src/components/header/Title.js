@@ -3,10 +3,12 @@ import styled from "styled-components";
 
 const Title = () => {
   const Text = styled.div`
-    font-size: 35px;
+    font-family: "Zilla Slab", serif;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 4.5rem;
     color: #2b2b2b;
-    padding-top: 30px;
-    padding-left: 125px;
+    margin-top: calc((1.5rem - 2rem) + 1.5rem);
     position: absolute;
     align-items: center;
     justify-items: center;
@@ -14,7 +16,7 @@ const Title = () => {
 
   const SubText = styled.div`
     font-family: "Dr Sugiyama";
-    font-size: 130px;
+    font-size: 5rem;
     color: #2b2b2b;
     align-items: center;
     justify-items: center;

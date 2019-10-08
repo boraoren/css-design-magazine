@@ -13,15 +13,15 @@ const Home = () => {
   return (
     <Wrapper>
       <BorderedBoxWrapper />
-      <Header id={"header"}>
+      <Header data-test-id={"header"}>
         <Title />
       </Header>
       <Main>
-        <Section id={"section"}>
+        <Section data-test-id={"section"}>
           <Slogan />
         </Section>
       </Main>
-      <Footer id={"footer"}>
+      <Footer data-test-id={"footer"}>
         <Image />
       </Footer>
     </Wrapper>

@@ -5,3 +5,25 @@
   height: 100%;
   font-family: "Zilla Slab", serif;
 }
+
+/* Older browsers */
+html {
+  font-size: 16px;
+  min-height: 0vw;
+}
+
+/* Modern browsers only need this one */
+
+/* 16px @ 480px increasing to 32px @ 1920px */
+@media (min-width: 400px) {
+  :root {
+    font-size: calc(1rem + ((1vw - 4.8px) * 1.1111));
+    /* Where: * 1.1111 = 100 * font_Size_Difference / viewport_Width_Difference */
+  }
+}
+/* Prevent font scaling beyond this breakpoint */
+@media (min-width: 1920px) {
+  :root {
+    font-size: 32px;
+  }
+}
